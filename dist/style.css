@@ -1,0 +1,32 @@
+body {
+background-image: url("background.jpg");
+background-size: cover;
+background-attachment: fixed;
+}
+
+#content {
+  text-align: center;
+  color: antiquewhite;
+}
+
+#name {
+  font-size: 80px;
+}
+
+#about {
+  font-size: 30px;
+  display: flexbox;
+  width: 30%;
+  justify-content: center;
+}
+
+.overlay {
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    overflow: auto;
+    top: 0px;
+    left: 0px;
+    background: rgba(0, 0, 0, 0.7); /*can be anything, of course*/
+}
